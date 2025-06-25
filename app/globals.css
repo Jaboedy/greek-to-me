@@ -10,6 +10,15 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Traditional Greek color palette */
+  --color-greek-blue: #0D5EAF;       /* Deep azure blue like the Greek flag */
+  --color-greek-light-blue: #5D8AA8; /* Aegean sea blue */
+  --color-greek-white: #F5F5F5;      /* White like Cycladic buildings */
+  --color-greek-terracotta: #A45A52; /* Terracotta/clay pottery color */
+  --color-greek-gold: #D4AF37;       /* Ancient Greek gold */
+  --color-greek-olive: #708238;      /* Olive green from olive trees */
+  --color-greek-stone: #D3D0CB;      /* Stone/marble color */
 }
 
 @media (prefers-color-scheme: dark) {
