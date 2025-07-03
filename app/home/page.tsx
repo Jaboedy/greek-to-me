@@ -25,9 +25,6 @@ export default function HomePage() {
             <div className="absolute bottom-0 left-0 p-8 text-white">
               <h1 className={`${caesarDressing.className} text-5xl mb-4 text-gold-accent`}>Greek To Me</h1>
               <p className="text-xl mb-6">Authentic Greek Cuisine with a Modern Street Food Twist</p>
-              <button className="bg-blue-primary hover:bg-blue-secondary text-white px-6 py-3 rounded-lg font-bold transition-colors shadow-lg">
-                Order Online
-              </button>
             </div>
           </div>
         </section>
@@ -46,9 +43,6 @@ export default function HomePage() {
                   <p className="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   <div className="flex justify-between items-center">
                     <span className="text-gold-accent font-bold">$10.99</span>
-                    <button className="bg-blue-primary hover:bg-blue-secondary text-white px-4 py-2 rounded text-sm transition-colors">
-                      Add to Cart
-                    </button>
                   </div>
                 </div>
               </div>
@@ -84,7 +78,7 @@ export default function HomePage() {
             <input
               type="email"
               placeholder="Your email address"
-              className="px-4 py-3 rounded-lg text-gray-800 flex-grow"
+              className="px-4 py-3 rounded-lg text-white flex-grow"
             />
             <button className="bg-gold-accent hover:bg-yellow-500 text-blue-primary px-6 py-3 rounded-lg font-bold transition-colors whitespace-nowrap">
               Subscribe
