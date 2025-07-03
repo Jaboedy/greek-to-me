@@ -33,3 +33,57 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Custom Greek to Me Theme Colors */
+.text-blue-primary {
+  color: var(--color-greek-blue);
+}
+
+.bg-blue-primary {
+  background-color: var(--color-greek-blue);
+}
+
+.bg-blue-secondary {
+  background-color: var(--color-greek-light-blue);
+}
+
+.text-blue-secondary {
+  color: var(--color-greek-light-blue);
+}
+
+.text-gold-accent {
+  color: var(--color-greek-gold);
+}
+
+.bg-gold-accent {
+  background-color: var(--color-greek-gold);
+}
+
+.text-cream-light {
+  color: var(--color-greek-white);
+}
+
+.text-cream-medium {
+  color: var(--color-greek-stone);
+}
+
+.bg-greek-white {
+  background-color: var(--color-greek-white);
+}
+
+.text-greek-blue {
+  color: var(--color-greek-blue);
+}
+
+.border-gold-accent {
+  border-color: var(--color-greek-gold);
+}
+
+/* Layout Adjustments */
+.w-65 {
+  width: 16.5rem;
+}
+
+.ml-65 {
+  margin-left: 16.5rem;
+}
