@@ -4,6 +4,8 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { caesarDressing } from './fonts';
+import HomeIcon from '@mui/icons-material/Home';
+import { NavLink } from './navlink';
 
 
 export default function SideNav() {
@@ -61,15 +63,11 @@ export default function SideNav() {
                 {/* Navigation Links */}
                 <div className="p-6">
                     <ul className="space-y-4 text-greek-blue">
-                        <li>
-                            <Link
-                                href="/"
-                                onClick={toggleNav}
-                                className="flex items-center text-blue-primary hover:text-gold-accent transition-colors text-lg font-semibold"
-                            >
-                                🏠 Home
-                            </Link>
-                        </li>
+                        <NavLink
+                            href="/"
+                            label="Home"
+                            icon={<HomeIcon className="text-blue-primary" />}
+                        />
                         <li>
                             <Link
                                 href="/menu"
@@ -95,15 +93,6 @@ export default function SideNav() {
                                 className="flex items-center text-blue-primary hover:text-gold-accent transition-colors text-lg font-semibold"
                             >
                                 📍 Location
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                href="/catering"
-                                onClick={toggleNav}
-                                className="flex items-center text-blue-primary hover:text-gold-accent transition-colors text-lg font-semibold"
-                            >
-                                🎉 Catering
                             </Link>
                         </li>
                         <li>
